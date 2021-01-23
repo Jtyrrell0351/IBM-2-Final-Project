@@ -13,7 +13,7 @@
         Rate <input type="range" id="rate" step=".25" min="1" max="20" value="10.25" 
         onchange="rangeLabel()"><span id="rangeLabelResult"></span>
           <br>
-        No. of Years <select> id="years" 
+        No. of Years <select id="years"> 
             <option value="1">1</option>
             <option value="2">2</option> 
             <option value="3">3</option> 
@@ -26,13 +26,14 @@
             <option value="10">10</option>  <br/>
         Interest : <span id="result"></span><br>
 
-        <button onclick="compute()">Compute Interest</button>
+        <button type="submit" id="compute" onclick="compute()">Compute Interest</button>
         <span id="result"></span>
     
     
-    </div>
+    
     <footer>
         <p>Everyone can get rich</p>
     </footer>
+</div>
     </body>
 </html>
