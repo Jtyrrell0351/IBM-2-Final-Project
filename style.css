@@ -1,9 +1,20 @@
-body {background-color:black;font: arial;color: white;}
-h1{color:grey;font: verdana}
-
-.maindiv{background-color: white;color: black;
+body {
+    background-color:black;
+    font-family: arial;
+    font-color: white;
 }
 
-.center{margin= auto; width= 300px; border-radius= 25px; padding=25px}
+h1 {
+    color:grey;
+    font-family:verdana;
+}
 
+.maindiv {
+        background-color:white;
+        font-color:black;
+        width: 300px;
+        padding: 20px;
+        border-radius: 25px;
+        align-self: center;
+    }
 
